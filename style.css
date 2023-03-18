@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*paleta de cores
+#67704C - verde
+#C7A987 - beje
+#654A34 - marrom
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500&display=swap'); /*nome do restaurante*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');/*menu*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');/*bemvindo*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');/*texto*/
+*{
+    margin: auto;
+}
+header{
+    background-color: #67704C;
+}
+header h1{
+    color: white;
+    text-align: right;
+    font-family: 'Sono', sans-serif;
+    font-size: 1.5em;
+    padding: 15px;
+}
+menu{
+    display: block;
+}
+ul{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+    list-style-type: none;
+    position: absolute;
+    top: 10px;
+    margin-left:-80px ;
+    
+    
+}
+li{
+    
+    display: inline-block;
+    padding: 10px; 
+    margin: 2px;
+}
+header a{
+    
+    text-decoration: none;
+    color: white;
+}
+#ftinicio{
+    background-image: url(imagens/inicio.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 80vh;
+}
+#bemvindo{
+    width: 90vw;
+    height: 80vh;
+}
+#bemvindo h1{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 80px;
+    font-size: 4em;
+    color: #67704C;
+
+}
+#bemvindo p{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 10px 50px;
+    text-align: justify;
+    text-indent: 20px;
+
+}
+#bemvindo img{
+    display: inline-block;
+    left:43%;
+    margin: 40px 15px;
+    position: relative;
+}
+#pratos{
+    position: relative;
+    display: inline-block;
+    width: 90vw;
+    height: 80vh;
+    margin: 40px 80px;
+}
+.material-symbols-outlined{
+    position: relative;
+    display: block;
+    left: 230px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#beje{
+    background-color: #C7A987;
+    position: relative;
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    left: 140px;
+    text-align: left;
+    border: 1px solid black;
+} 
+#beje img{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    top:-20%;
+    border-radius: 50%;
+}
+#beje h3{
+    font-size: 1.5em;
+    position: relative;
+    top: -15%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+#beje p{
+    text-align: justify;
+    position: relative;
+    top: -15%;
+    text-indent: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin: 5px 10px
+}
+
+#verde{
+    position: relative;
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    left: 150px;
+    background-color: #67704C;
+    text-align: left;
+    border: 1px solid black;
+} 
+#verde img{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    top:-20%;
+    border-radius: 50%;
+}
+#verde h3{
+    font-size: 1.5em;
+    position: relative;
+    top: -15%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+#verde p{
+    text-align: justify;
+    position: relative;
+    top: -15%;
+    text-indent: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin: 5px 10px
+}
+#marrom{
+    position: relative;
+    display: inline-block;
+    width: 280px;
+    height: 400px;
+    left: 160px;
+    margin-right: 15px;
+    background-color: #654A34;
+    text-align: left;
+    border: 1px solid black;
+} 
+#marrom img{
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    top:-20%;
+    border-radius: 50%;
+}
+#marrom h3{
+    font-size: 1.5em;
+    position: relative;
+    top: -15%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+#marrom p{
+    text-align: justify;
+    position: relative;
+    top: -15%;
+    text-indent: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin: 5px 10px
+}
