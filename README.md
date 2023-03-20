@@ -1,3 +1,4 @@
 # Projeto-Restaurant
-<h1>Projeto ficticio de Site para Restaurantes!</h1>
+<h3>Projeto ficticio de Site para tablets e desktops de Restaurantes!</h3>
+<h3>Podendo ser utilizado como cardapio e ate mesmo serviço de apresentação</h3>
 <a href="https://iasmincqfernandes.github.io/Projeto-Restaurant/" target="_blank"> Confira! <a>
