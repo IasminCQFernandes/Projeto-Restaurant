@@ -25,6 +25,9 @@ header h1{
 menu{
     display: block;
 }
+menu img{
+    display: none;
+}
 ul{
     font-family: 'Raleway', sans-serif;
     font-size: 0.9em;
@@ -385,4 +388,379 @@ footer{
     background-color: #C7A987;
     border: 1px solid #654A34;
     color: #67704C;
+}
+/*RESPOSIVIDADE*//*tablet*/
+@media screen and (max-width:768px){
+    menu img{
+        display: none;
+    }
+    #pratos{
+        position: relative;
+        display: inline-block;
+        width: 90vw;
+        height: 80vh;
+        margin: 100px 80px;
+    }
+    #bemvindo img{
+        display: inline-block;
+        left:35%;
+        margin: 40px 15px;
+        position: relative;
+    }
+    #beje{
+        background-color: #C7A987;
+        position: relative;
+        display: inline-block;
+        width: 280px;
+        height: 400px;
+        left: 0px;
+        text-align: left;
+        border: 1px solid black;
+    } 
+    .material-symbols-outlined{
+        position: relative;
+        display: block;
+        left: 210px;
+        color: white;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    #verde{
+        position: relative;
+        display: inline-block;
+        width: 280px;
+        height: 400px;
+        left: -10px;
+        background-color: #67704C;
+        text-align: left;
+        border: 1px solid black;
+    } 
+    #marrom{
+        display: none;
+    } 
+    #imgcafe img{
+        position: relative;
+        display: inline-block;
+        margin: auto;
+        width: 300px;
+        height: 350px;
+        left: 50px;
+}
+
+#imgcafe p{
+    font-size: 0.7em;
+    background-color: #654A34;
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    width: 230px;
+    height: 318px;
+    left:350px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#imgcafe span{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+#imgrestaurant img{
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    width: 200px;
+    height: 350px;
+    left: 50px;
+    top:4px;
+}
+#restaurant p{
+    font-size: 1.2em;
+    color: white;
+    background-color: #C7A987;
+    text-align: justify;
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 14px;
+    width: 130px;
+    height: 334px;
+    left:278px;
+    border: 1px solid #654A34;
+    }
+    #imgrestaurant2 img{
+        position: absolute;
+        display: inline-block;
+        margin: 0px;
+        width: 200px;
+        height: 350px;
+        left: 411px;
+        top: -14px;
+}
+#redes img{
+    top: -100px;
+    margin-bottom: 0px;
+}
+#redes legend{
+    top: -80px;
+}
+#redes2 img{
+    top: -241px;
+}
+#redes2 legend{
+    top: -224px;
+}
+#rodape p{
+    display: block;
+    position: relative;
+    font-size: 1.2em;
+    top: 0px;
+    padding: 30px 100px;
+    color: white;
+    text-align: center;
+}
+#rodape img{
+    width: 200px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-left: 270px;
+}
+#rodape h3{
+    display: block;
+    position: relative;
+    font-size: 1em;
+    top: -15px;
+    left: 110px;
+    padding: 0px 150px;
+    color: white;
+    text-align: left;
+}
+#rodape h3>a{
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #C7A987;
+    border-radius: 20px;
+
+}
+}
+/*celular*/
+@media screen and (max-width: 600px){ 
+   header{
+    width: 98vw;
+   }
+   header menu{
+    width: auto;
+   }
+   
+    menu p{
+        display: none;
+    }
+    menu img{
+        display: block;
+    }
+    menu li:hover::after{
+        display: block;
+    }
+    li{
+        
+        background-color: #67704C;
+        display: inline-block;
+        padding: 10px; 
+        margin: 0px;
+    }
+    #ftinicio{
+        width: auto;
+       }
+    #bemvindo{
+        width: auto;
+    }
+    #bemvindo img{
+        display: inline-block;
+        left:30%;
+        margin: 40px 15px;
+        position: relative;
+    }
+    #pratos{
+        width: 100vw;
+    }
+    #beje{
+        margin-top:250px ;
+        background-color: #C7A987;
+        position: relative;
+        display: inline-block;
+        width: 280px;
+        height: 400px;
+        left: 7%;
+        text-align: left;
+        border: 1px solid black;
+    } 
+    #beje img{
+        position: relative;
+        display: block;
+        margin: 0px auto;
+        width: 250px;
+        top:-20%;
+        border-radius: 50%;
+    }
+    #beje h3{
+        font-size: 1.5em;
+        position: relative;
+        top: -15%;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        text-align: center;
+        margin-top: 0px;
+    }
+    #beje p{
+        text-align: justify;
+        position: relative;
+        top: -15%;
+        text-indent: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        color: white;
+        margin: 5px 10px
+    }
+    #verde{
+        display: none;
+    }
+    #marrom{
+        display: none;
+    }
+    #cafe{
+        width: 100vw;
+    }
+    #imgcafe img{
+        position: relative;
+        display: block;
+        margin: 0px;
+        width: 285px;
+        height: 400px;
+        left:40%;
+}
+    #imgcafe p{
+        color: white;
+        font-size: 0.7em;
+        background-color: #654A34;
+        text-align: justify;
+        position: absolute;
+        display: block;
+        margin: 0px;
+        margin-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 30px;
+        width: 253px;
+        height: 318px;
+        left:40%;
+        border: 1px solid black;
+        overflow: hidden;
+    }
+    #imgcafe span{
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+}
+#restaurant{
+    width: auto;
+}
+#imgrestaurant img{
+    position: relative;
+    display: block;
+    margin: 50px;
+    width: 290px;
+    height: 350px;
+    left: 15%;
+    top:300px;
+}
+#restaurant p{
+    font-size: 1.2em;
+    color: white;
+    background-color: #C7A987;
+    text-align: justify;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 14px;
+    width: 258px;
+    height:200px;
+    left:22.5%;
+    top: 245px;
+    border: 1px solid #654A34;
+    }
+    #imgrestaurant2 img{
+        display: none;
+}
+footer{
+    width: auto;
+    margin-top: 300px;
+}
+#redes img{
+    top: 120px;
+    margin-bottom: 0px;
+}
+#redes legend{
+    top: 120px;
+    left: 150px;
+}
+#redes2 img{
+    top: -25px;
+}
+#redes2 legend{
+    top: -25px;
+    left: 265px;
+}
+#rodape p{
+    display: block;
+    position: relative;
+    font-size: 1.2em;
+    top: 0px;
+    padding: 15px 100px;
+    color: white;
+    text-align: center;
+}
+#rodape img{
+    width: 200px;
+    margin-top: -10px;
+    padding-top: 0px;
+    padding-left: 160px;
+}
+#rodape h3{
+    text-align: center;
+    display: block;
+    position: relative;
+    font-size: 1em;
+    top: 0px;
+    width: 200px;
+    left: 30px;
+    padding: 0px 0px;
+    color: white;
+}
+#rodape h3>a{
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #C7A987;
+    border-radius: 20px;
+
+}
 }
